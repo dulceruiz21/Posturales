@@ -289,39 +289,7 @@ riesgo="Medio"
 else{
 riesgo="Alto"
 }
-  function recomendaciones(){
 
-let resultado=document.getElementById("resultado").innerText
-
-let texto=""
-
-if(resultado.includes("Bajo")){
-
-texto="✔ Riesgo bajo. Mantener la postura actual. Se recomienda continuar con pausas activas y monitoreo periódico de la postura."
-
-}
-
-else if(resultado.includes("Medio")){
-
-texto="⚠ Riesgo medio. Se recomienda mejorar la postura del trabajador, ajustar la altura de la estación de trabajo y reducir movimientos repetitivos."
-
-}
-
-else if(resultado.includes("Alto")){
-
-texto="⚠ Riesgo alto. Se recomienda rediseñar la estación de trabajo, reducir cargas, mejorar la posición de brazos y tronco y aplicar pausas activas frecuentes."
-
-}
-
-else if(resultado.includes("Muy Alto")){
-
-texto="🚨 Riesgo muy alto. Se requiere intervención ergonómica inmediata. Rediseñar el puesto, utilizar ayudas mecánicas y limitar el tiempo de exposición del trabajador."
-
-}
-
-document.getElementById("recomendaciones").innerHTML=texto
-
-}
 
 document.getElementById("resultado").innerHTML=
 
